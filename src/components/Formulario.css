@@ -1,0 +1,42 @@
+label {
+  color: white;
+  display: block;
+  margin-top: 1rem;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+textarea {
+  height: 38px;
+  padding: 1px 20px;
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 1rem;
+  font-family: sans-serif;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+.button-primary {
+  background-color: #0074D9;
+  color: white;
+  border: none;
+  margin-top: 1rem;
+  
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+  cursor: pointer;
+}
+
+.button-primary:hover {
+  background-color: #005fa3;
+}
