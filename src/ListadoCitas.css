@@ -1,0 +1,46 @@
+/* Estilos para el listado de citas */
+
+.lista-citas {
+  width: 100%;
+}
+
+.lista-citas h2 {
+  color: white;
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+  letter-spacing: 1px;
+}
+
+/* Estilos para cada bloque de cita (están definidos en Cita.css, pero aquí podrías agregar clases contenedoras si fuera necesario) */
+
+.cita {
+  padding: 2rem;
+  background: white;
+  border-bottom: 1px solid #e1e1e1;
+  color: black;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.cita p {
+  font-weight: bold;
+  margin-bottom: .8rem;
+}
+
+.cita p span {
+  font-weight: normal;
+}
+
+.button.eliminar,
+.button.eliminar:hover {
+  background-color: #c10059;
+  color: white;
+  margin-top: 2rem;
+  width: 100%;
+  border: none;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
